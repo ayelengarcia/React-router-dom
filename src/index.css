@@ -1,0 +1,123 @@
+html {
+  font-size: 1.5rem;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  background: rgb(45, 44, 44);
+}
+
+#root {
+  margin: 2rem;
+}
+
+header {
+  border-bottom: 1px solid rgb(204, 192, 192);
+  color: rgb(204, 192, 192);
+}
+
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+header h1 svg {
+  margin-left: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  color: rgb(98, 96, 96);
+}
+
+main nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+main h3 {
+  color: rgb(232, 101, 120);
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 50px;
+}
+
+h4{
+  color: cornsilk;
+}
+
+.burbuja{
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.76);
+   border: 1px solid cornsilk;
+  border-radius: 30px;
+  border-top-right-radius: 0px;
+}
+
+ul li {
+  background-color: black;
+  justify-content: space-around;
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+  width: 250px;
+  height: 310px;
+  gap: 5px;
+}
+
+ul li strong {
+  padding-right: 0.3rem;
+  color: rgb(204, 192, 192);
+}
+
+ul li small {
+  font-style: italic;
+}
+
+ul li em {
+  color: brown;
+}
+
+ul li svg {
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.btn-score{
+  display: flex;
+  gap: 20px;
+}
+
+button{
+  background-color: rgb(232, 101, 120);
+  color: aliceblue;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(156, 52, 68);
+  transition: .5s;
+}
